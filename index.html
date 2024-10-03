@@ -81,28 +81,64 @@
          </div> -->
 
          <!-- dealing with margins and paddings -->
-          <div class="m-1 p-1 bg-primary">small margin and padding with primary bg</div>
+          <!-- <div class="m-1 p-1 bg-primary">small margin and padding with primary bg</div>
           <div class="mx-1 py-3 bg-info">horizontal margin 1 and vertical padding 3 on info bg</div>
-          <div class="ms-3 mt-4 pe-1 pb-4 bg-warning">start margin 3 top margin2 end padding 1 bottom padding 4 on warning bg</div>
+          <div class="ms-3 mt-4 pe-1 pb-4 bg-warning">start margin 3 top margin2 end padding 1 bottom padding 4 on warning bg</div> -->
 
           <!-- dealing with borders -->
-           <div class="m-3 p-3 border">default borders</div>
+           <!-- <div class="m-3 p-3 border">default borders</div>
            <div class="p-3 m-3 border-top border-danger">danger border top</div>
            <div class="p-3 m3 border border-info rounded border-5">thick rounded border of size 5 and bg info</div>
            <div class="p-3 m-3 border-success border rounded-pill border-5">rounded pill</div>
-           <div class="m-3 p-3 border-top border-5 border-bottom border-primary">individual borders</div>
+           <div class="m-3 p-3 border-top border-5 border-bottom border-primary">individual borders</div> -->
 
            <!-- dealing with box shadow -->
-            <div class="shadow-sm p-3 m-3 ">small box shadow </div>
+            <!-- <div class="shadow-sm p-3 m-3 ">small box shadow </div>
             <div class="shadow p-3 m-3 ">medium box shadow </div>
-            <div class="shadow-lg p-3 m-3 ">large box shadow </div>
+            <div class="shadow-lg p-3 m-3 ">large box shadow </div> -->
 
             <!-- dealing with font weight -->
-             <div class="fw-bolder text-light bg-info ms-3 ps-3">bolder text</div>
+             <!-- <div class="fw-bolder text-light bg-info ms-3 ps-3">bolder text</div>
              <div class="fw-bold">bold text</div>
              <div>normal text</div>
              <div class="fw-light">light text</div>
              <div class="fw-lighter">lighter text</div>
-             <div class="fw-light fst-italic text-danger">danger light italic text</div>
+             <div class="fw-light fst-italic text-danger">danger light italic text</div> -->
+
+             <!-- dealing with containers -->
+              <div class="container my-5"> <!-- this ensures that the content of this div tag adjust to to the screen size irrespective of how the screen is displayed. it adjusts itts max-width everytime the screen size changes-->
+                <h2>normal contaier</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quas iure cum accusantium eos explicabo molestiae nemo pariatur
+                    tempore similique iusto, adipisci blanditiis rem voluptates sed tenetur quia,
+                    quod a esse perspiciatis quis ratione? Aspernatur, quis.
+                </p>
+              </div>
+
+              <div class="container-fluid my-5"> <!-- it gives a fixed max-width to the content of this div tag -->
+                <h2>fluid container</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Eos, reiciendis! Similique inventore sapiente,
+                   voluptatem voluptatum accusamus quis obcaecati ipsam,
+                   nihil magnam quibusdam quidem totam.
+                </p>
+              </div>
+
+              <div class="container-lg my-5">
+                <h2>displays as fluid container for small screens then behaves as containers for larger screens</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Ipsum optio illo saepe porro impedit assumenda tempore molestias in nulla?
+                   Maxime suscipit ipsa, obcaecati beatae veritatis pariatur eligendi sunt blanditiis quo?
+                </p>
+              </div>
+
+              <div class="container-xl my-5">
+                <h2>100% width until xl screens, then container</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Deserunt recusandae facere nesciunt iusto debitis vel placeat 
+                   voluptatem amet necessitatibus maxime praesentium id,
+                   quibusdam laborum asperiores similique, facilis repellendus. Neque, eius!
+                </p>
+              </div>
 </body>
 </html>
